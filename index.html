@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Red Scare Simulator.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Red Scare Simulator" startnode="1" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="7B05B706-185E-4D27-A8CE-9F475A8ABD87" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com');
+<tw-storydata name="Red Scare Simulator" startnode="1" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="7B05B706-185E-4D27-A8CE-9F475A8ABD87" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com');
 
 tw-story {
     background-image: url("https://firstamendment.mtsu.edu/wp-content/uploads/sites/2/2024/11/McCarthy-Army-hearings.jpg");
@@ -69,7 +69,7 @@ I&#39;ll start easy. What&#39;s your favorite color?
 [[&gt; What the hell does that have to do with anything?-&gt;GameOver]]
 </tw-passagedata><tw-passagedata pid="4" name="OK" tags="" position="950,550" size="100,100">Hm, that&#39;s what I thought.
 
-(if: $question is &quot;color&quot;)[[[&gt; I&#39;m as patriotic as I can be, I swear!-&gt;ColorGood]]] (if: $question is &quot;vacation&quot;)[[[&gt; I&#39;m as patriotic as I can be, I swear!-&gt;VacationGood]]] (if: $question is &quot;constitution&quot;)[[[&gt; I&#39;m as patriotic as I can be, I swear!-&gt;ConstitutionGood]]] (if: $question is &quot;religion&quot;)[[[&gt; I&#39;m as Christian as I can be, I swear!-&gt;ConstitutionGood]]](if: $question is &quot;media&quot;)[[[&gt; I&#39;m as Christian as I can be, I swear!-&gt;MediaGood]]](if: $question is &quot;imperial&quot;)[[[&gt; I&#39;m as patriotic as I can be, I swear!-&gt;ImperialGood]]]</tw-passagedata><tw-passagedata pid="5" name="GameOver" tags="gameover" position="800,325" size="100,100">That&#39;s it, you commie! You&#39;re the third cousin twice removed of Joseph Stalin, aren&#39;t you?
+(if: $question is &quot;color&quot;)[[[&gt; I&#39;m as patriotic as I can be, I swear!-&gt;ColorGood]]] (if: $question is &quot;vacation&quot;)[[[&gt; I&#39;m as patriotic as I can be, I swear!-&gt;VacationGood]]] (if: $question is &quot;constitution&quot;)[[[&gt; I&#39;m as patriotic as I can be, I swear!-&gt;ConstitutionGood]]] (if: $question is &quot;religion&quot;)[[[&gt; I&#39;m as Christian as I can be, I swear!-&gt;ReligionGood]]](if: $question is &quot;media&quot;)[[[&gt; I&#39;m as Christian as I can be, I swear!-&gt;MediaGood]]](if: $question is &quot;imperial&quot;)[[[&gt; I&#39;m as patriotic as I can be, I swear!-&gt;ImperialGood]]]</tw-passagedata><tw-passagedata pid="5" name="GameOver" tags="gameover" position="800,325" size="100,100">That&#39;s it, you commie! You&#39;re the third cousin twice removed of Joseph Stalin, aren&#39;t you?
 
 Straight to the Federal Penitentiary you go. I bet you&#39;ll fit right in with your pinko buddy Alger Hiss.
 
@@ -135,12 +135,12 @@ Straight to the Federal Penitentiary you go. I bet you&#39;ll fit right in with 
 [[I&#39;m not religious.]]
 (set: $question to &quot;religion&quot;)</tw-passagedata><tw-passagedata pid="21" name="Catholicism." tags="" position="925,1650" size="100,100">Well, at least you&#39;re Christian.
 
-[[Unlike those godless Soviets.-&gt;ReligionGood]]</tw-passagedata><tw-passagedata pid="22" name="I&#39;m not religious." tags="" position="675,1650" size="100,100">What a curious statement. Pray, would you mind elaborating on that?
+[[Unlike those godless Soviets.-&gt;ReligionGood]]</tw-passagedata><tw-passagedata pid="22" name="I&#39;m not religious." tags="" position="675,1675" size="100,100">What a curious statement. Pray, would you mind elaborating on that?
 
 [[I love and worship money, if that counts.-&gt;ReligionOK]]
 [[How silly of me! I meant to say the opposite.-&gt;OK]]
 [[Religion is the opium of the masses.-&gt;GameOver]]
-[[I plead the Fifth.-&gt;FifthAmendment]]</tw-passagedata><tw-passagedata pid="23" name="ReligionOK" tags="" position="675,1775" size="100,100">Well, you&#39;ll be going to hell, but at least you&#39;re not communist.
+[[I plead the Fifth.-&gt;FifthAmendment]]</tw-passagedata><tw-passagedata pid="23" name="ReligionOK" tags="" position="675,1800" size="100,100">Well, you&#39;ll be going to hell, but at least you&#39;re not communist.
 
 [[I&#39;d sooner go to the Fourth Circle than be suspected a commie.-&gt;ReligionGood]]</tw-passagedata><tw-passagedata pid="24" name="ReligionGood" tags="" position="800,1650" size="100,100">Good answer. Indeed, unlike those godless Russians, we Americans are filled with love and compassion that impels us to always help a neighbor in need by holding fast unto our Keynesian principles. A rising tide floats all boats!
 
@@ -170,9 +170,10 @@ Here&#39;s some food for thought: what does &#39;&#39;your&#39;&#39; version of 
 
 [[Trust-busting is for socialists.-&gt;MediaGood]]</tw-passagedata><tw-passagedata pid="32" name="(What a Lost Cause...)" tags="" position="800,2025" size="100,100">Although I for my part think it is somewhat of a &#39;&#39;white&#39;&#39;wash...I am of the firm belief that it is a film a thousandfold more patriotic than the communist trash they peddle out at Hollywood nowadays.
 
-[[&gt; There&#39;s nothing right about the leftist agenda.-&gt;Imperial]]</tw-passagedata><tw-passagedata pid="33" name="Tip" tags="tip" position="800,825" size="100,100">[[Tip: Be more patriotic next time!-&gt;Title Page]]</tw-passagedata><tw-passagedata pid="34" name="Sir, yes sir!" tags="win" position="650,2650" size="100,100">(if: $CIA is false)[(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;===XXXXXXXXXXXXXX===&quot;)[Congrats, you&#39;re good to go!
-There&#39;s no one more American than you are.]](if: $CIA is true)[(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;===XXXXXXXXXXXXXX===&quot;)[Congrats, you&#39;re good to go!
-(The CIA might come a-knockin&#39; on your door within the next four or five days, though.)]](align:&quot;=&gt;&lt;=&quot;)+(box:&quot;===XXXXXXXXXXXXXX===&quot;)[[[Play again?-&gt;Title Page]]]</tw-passagedata><tw-passagedata pid="35" name="Imperial" tags="" position="800,2150" size="100,100">Final question. Exactly how many feet are in an American yard?
+[[&gt; There&#39;s nothing right about the leftist agenda.-&gt;Imperial]]</tw-passagedata><tw-passagedata pid="33" name="Tip" tags="tip" position="800,825" size="100,100">[[Tip: Be more patriotic next time!-&gt;Title Page]]</tw-passagedata><tw-passagedata pid="34" name="Sir, yes sir!" tags="win" position="650,2650" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;===XXXXXXXXXXXXXX===&quot;)[Congrats, you&#39;re good to go!
+There&#39;s no one more American than you are.
+
+(Please do keep quiet about our little rendezvous.)](align:&quot;=&gt;&lt;=&quot;)+(box:&quot;===XXXXXXXXXXXXXX===&quot;)[[[Play again?-&gt;Title Page]]]</tw-passagedata><tw-passagedata pid="35" name="Imperial" tags="" position="800,2150" size="100,100">Final question. Exactly how many yards are in an American mile?
 
 [[1750.-&gt;ImperialBad]]
 [[1760.-&gt;ImperialGood]]
@@ -181,23 +182,18 @@ There&#39;s no one more American than you are.]](if: $CIA is true)[(align:&quot;
 [[I prefer the metric system.]]
 (set: $question to &quot;imperial&quot;)</tw-passagedata><tw-passagedata pid="36" name="I prefer the metric system." tags="" position="675,2275" size="100,100">I&#39;ve had it with the globalists and the communists! Straight to the cooler with you.
 
-[[&gt; What about my due process?-&gt;GameOver]]</tw-passagedata><tw-passagedata pid="37" name="ImperialBad" tags="" position="800,2275" size="100,100">What could it mean that you don&#39;t know the basics of our //exceptional// measurement system? Could it be that you&#39;re a spy from Russia?
+[[&gt; What about my due process?-&gt;GameOver]]</tw-passagedata><tw-passagedata pid="37" name="ImperialBad" tags="" position="800,2275" size="100,100">Wrong. Now, what could it mean that you don&#39;t know the basics of our //exceptional// measurement system? Could it be that...you&#39;re a Soviet spy?
 
-[[&gt; I meant 1760. I don&#39;t now what came over me!-&gt;OK]] 
-[[&gt; Don&#39;t blame me, blame the imperial system.-&gt;GameOver]]
-[[&gt; Why, yes!-&gt;GameOver]]</tw-passagedata><tw-passagedata pid="38" name="ImperialGood" tags="" position="800,2400" size="100,100">Indeed, our glorious country is exceptional in everything, including our measurement system. And we&#39;ll stay that way long as God wills it.
+[[&gt; Can I try again? -&gt;Imperial]] 
+[[&gt; Wouldn&#39;t you like to know? -&gt;GameOver]]
+[[&gt; да.-&gt;GameOver]]</tw-passagedata><tw-passagedata pid="38" name="ImperialGood" tags="" position="800,2400" size="100,100">Glad to know I got a true patriot in here. Everyone knows the meters and kilometers are for globalists and communists.
 
 [[I don&#39;t even know what a kilometer is.]]</tw-passagedata><tw-passagedata pid="39" name="I don&#39;t even know what a kilometer is." tags="" position="800,2550" size="100,100">Well, well, well! I have to say, I&#39;m impressed: you&#39;re a true patriot through and through. 
 
 Just one more thing: you won&#39;t tell anyone about our little meeting, will you?
 
-[[&gt; Sir, no sir!]]
-[[&gt; My First Amendment rights aren&#39;t just for decoration, you know...]]</tw-passagedata><tw-passagedata pid="40" name="&gt; Sir, no sir!" tags="" position="1000,2550" size="100,100">(set: $CIA to false)
-
- Now, it&#39;s time for us to part. Keep an eye out for any commies for me, won&#39;t ya?
-
-[[Sir, yes sir!]]</tw-passagedata><tw-passagedata pid="41" name="&gt; My First Amendment rights aren&#39;t just for decoration, you know..." tags="" position="925,2675" size="100,100">(set: $CIA to true)
-Well, I can&#39;t stop you from leaving. Keep an eye out for any commies for me, won&#39;t ya?
+[[&gt; Sir, no sir. -&gt;Ending]]
+[[&gt; My First Amendment rights aren&#39;t just for decoration, you know...-&gt;Ending]]</tw-passagedata><tw-passagedata pid="40" name="Ending" tags="" position="800,2675" size="100,100">Now, it&#39;s time for us to part. Keep an eye out for any commies for me, won&#39;t ya?
 
 [[Sir, yes sir!]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
